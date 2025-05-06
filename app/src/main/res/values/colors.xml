@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- 主题颜色 - 现代企业风格 -->
+    <color name="primary">#2563EB</color> <!-- 更鲜明的蓝色 -->
+    <color name="primary_dark">#1E40AF</color> <!-- 深蓝色 -->
+    <color name="primary_light">#DBEAFE</color> <!-- 淡蓝色 -->
+    <color name="accent">#F59E0B</color> <!-- 更现代的橙黄色 -->
+    <color name="highlight">#F59E0B</color>
+    
+    <!-- 文本颜色 - 提高对比度和可读性 -->
+    <color name="text_primary">#111827</color> <!-- 更深的黑色 -->
+    <color name="text_secondary">#4B5563</color> <!-- 更清晰的灰色 -->
+    <color name="text_hint">#9CA3AF</color> <!-- 更柔和的提示色 -->
+    
+    <!-- 金额颜色 - 更友好的色调 -->
+    <color name="positive_amount">#10B981</color> <!-- 更柔和的绿色 -->
+    <color name="negative_amount">#EF4444</color> <!-- 更柔和的红色 -->
+    <color name="income">#10B981</color>
+    <color name="expense">#EF4444</color>
+    
+    <!-- 类别颜色 - 更和谐的配色方案 -->
+    <color name="category_food">#EF4444</color> <!-- 红色 -->
+    <color name="category_transport">#3B82F6</color> <!-- 蓝色 -->
+    <color name="category_shopping">#8B5CF6</color> <!-- 紫色 -->
+    <color name="category_entertainment">#F59E0B</color> <!-- 橙色 -->
+    <color name="category_medical">#10B981</color> <!-- 绿色 -->
+    <color name="category_house">#6B7280</color> <!-- 灰褐色 -->
+    <color name="category_communication">#0EA5E9</color> <!-- 天蓝色 -->
+    <color name="category_other">#6B7280</color> <!-- 灰色 -->
+    
+    <!-- 账户类型颜色 - 更协调的色调 -->
+    <color name="account_cash">#10B981</color> <!-- 绿色 -->
+    <color name="account_bank">#3B82F6</color> <!-- 蓝色 -->
+    <color name="account_wechat">#10B981</color> <!-- 绿色 -->
+    <color name="account_alipay">#0EA5E9</color> <!-- 天蓝色 -->
+    <color name="account_credit">#EF4444</color> <!-- 红色 -->
+    <color name="account_default">#6B7280</color> <!-- 灰色 -->
+    
+    <!-- 背景颜色 - 更现代的阴影效果 -->
+    <color name="background">#F9FAFB</color> <!-- 更柔和的背景色 -->
+    <color name="background_light">#F9FAFB</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E5E7EB</color> <!-- 更精致的分隔线 -->
+    
+    <!-- 夜间模式颜色 - 更舒适的暗色调 -->
+    <color name="dark_background">#111827</color>
+    <color name="dark_text_primary">#F9FAFB</color>
+    <color name="dark_text_secondary">#D1D5DB</color>
+    <color name="dark_card_background">#1F2937</color>
+</resources>

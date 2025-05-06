@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 消费类别 -->
+    <string-array name="expense_categories">
+        <item>餐饮</item>
+        <item>交通</item>
+        <item>购物</item>
+        <item>娱乐</item>
+        <item>医疗</item>
+        <item>住房</item>
+        <item>通讯</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 支付方式 -->
+    <string-array name="payment_methods">
+        <item>微信</item>
+        <item>支付宝</item>
+        <item>现金</item>
+        <item>银行卡</item>
+        <item>信用卡</item>
+    </string-array>
+
+    <!-- 账户类型 -->
+    <string-array name="account_types">
+        <item>现金</item>
+        <item>银行卡</item>
+        <item>微信</item>
+        <item>支付宝</item>
+        <item>信用卡</item>
+        <item>其他</item>
+    </string-array>
+    
+    <!-- 账户类型值 -->
+    <string-array name="account_type_values">
+        <item>cash</item>
+        <item>bank</item>
+        <item>wechat</item>
+        <item>alipay</item>
+        <item>credit</item>
+        <item>default</item>
+    </string-array>
+
+    <!-- 货币名称 -->
+    <string-array name="currency_names">
+        <item>人民币 (¥)</item>
+        <item>美元 ($)</item>
+        <item>欧元 (€)</item>
+        <item>英镑 (£)</item>
+        <item>日元 (¥)</item>
+    </string-array>
+
+    <!-- 货币代码 -->
+    <string-array name="currency_values">
+        <item>CNY</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>JPY</item>
+    </string-array>
+
+    <!-- 时间范围选项 -->
+    <string-array name="time_range_options">
+        <item>本周</item>
+        <item>本月</item>
+        <item>本年</item>
+        <item>全部</item>
+    </string-array>
+
+    <!-- 记账类型选项 -->
+    <string-array name="default_record_types">
+        <item>支出</item>
+        <item>收入</item>
+        <item>转账</item>
+    </string-array>
+    <string-array name="default_record_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- 主题选项 -->
+    <string-array name="theme_options">
+        <item>蓝色(默认)</item>
+        <item>绿色</item>
+        <item>紫色</item>
+        <item>橙色</item>
+        <item>红色</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources> 

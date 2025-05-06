@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_day_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- 日期 -->
+            <TextView
+                android:id="@+id/tv_day_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                tools:text="5" />
+
+            <!-- 农历日期 -->
+            <TextView
+                android:id="@+id/tv_lunar_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="10sp"
+                tools:text="立夏" />
+
+            <!-- 支出金额 -->
+            <TextView
+                android:id="@+id/tv_day_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/expense"
+                android:textSize="12sp"
+                tools:text="-18.57" />
+
+            <!-- 收入金额 (不常用，可选) -->
+            <TextView
+                android:id="@+id/tv_day_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/income"
+                android:textSize="12sp"
+                tools:text="+0" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout> 

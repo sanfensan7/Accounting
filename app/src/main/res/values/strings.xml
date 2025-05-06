@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能记账</string>
+    
+    <!-- 主界面 -->
+    <string name="tab_home">首页</string>
+    <string name="tab_calendar">日历</string>
+    <string name="tab_stats">统计</string>
+    <string name="tab_assets">资产</string>
+    <string name="tab_settings">设置</string>
+    
+    <!-- 记账功能 -->
+    <string name="add_record">记一笔</string>
+    <string name="voice_record">语音记账</string>
+    <string name="text_record">文字记账</string>
+    <string name="image_record">截图记账</string>
+    <string name="record_amount">金额</string>
+    <string name="record_category">分类</string>
+    <string name="record_date">日期</string>
+    <string name="record_remark">备注</string>
+    <string name="record_confirm">确认</string>
+    <string name="record_cancel">取消</string>
+    <string name="amount">金额</string>
+    <string name="category">分类</string>
+    <string name="remark">备注</string>
+    <string name="pay_method_cash">现金</string>
+    <string name="amount_must_greater_than_zero">金额必须大于零</string>
+    <string name="invalid_amount">无效的金额</string>
+    <string name="record_added">记账成功</string>
+    <string name="feature_coming_soon">功能即将推出</string>
+    <string name="category_suggestion">选择或输入支出类别：</string>
+    
+    <!-- 分类名称 -->
+    <string name="category_food">餐饮</string>
+    <string name="category_shopping">购物</string>
+    <string name="category_transport">交通</string>
+    <string name="category_entertainment">娱乐</string>
+    <string name="category_medical">医疗</string>
+    <string name="category_housing">住房</string>
+    <string name="category_other">其他</string>
+    <string name="category_salary">工资</string>
+    <string name="category_bonus">奖金</string>
+    <string name="category_investment">投资</string>
+    
+    <!-- 资产相关 -->
+    <string name="asset_cash">现金</string>
+    <string name="asset_bank">银行卡</string>
+    <string name="asset_alipay">支付宝</string>
+    <string name="asset_wechat">微信</string>
+    <string name="asset_credit">信用卡</string>
+    
+    <!-- 权限相关 -->
+    <string name="permission_request">权限请求</string>
+    <string name="permission_rationale">为了提供完整的记账体验，应用需要以下权限</string>
+    <string name="permission_denied">权限被拒绝，部分功能可能无法使用</string>
+    <string name="accessibility_service_description">监测支付宝和微信的支付行为，实现自动记账</string>
+    <string name="accessibility_guide_title">开启无障碍服务</string>
+    <string name="accessibility_guide_content">开启无障碍服务后，应用可以检测到您在微信和支付宝中的支付行为，并自动弹出记账窗口</string>
+    
+    <!-- 设置 -->
+    <string name="settings_theme">主题设置</string>
+    <string name="settings_auto_record">自动记账设置</string>
+    <string name="settings_backup">数据备份与恢复</string>
+    <string name="settings_about">关于应用</string>
+</resources>
